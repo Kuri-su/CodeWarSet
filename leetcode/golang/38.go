@@ -1,9 +1,9 @@
 package golang
 
 import (
-	`bytes`
-	`fmt`
-	`strconv`
+	"bytes"
+	"fmt"
+	"strconv"
 )
 
 func CountAndSay(n int) string {
@@ -40,12 +40,11 @@ func CountAndSay(n int) string {
 	return res
 }
 
-
-func countAndSay2(n int) string {
+func CountAndSay2(n int) string {
 	if n == 1 {
 		return "1"
 	}
-	lastStr := countAndSay2(n - 1)
+	lastStr := CountAndSay2(n - 1)
 	res := bytes.NewBufferString("")
 	curNum := lastStr[0]
 	curCoefficient := 1
