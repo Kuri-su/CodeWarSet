@@ -1,3 +1,3 @@
-# codewar test set
+# codewar set
 
 
