@@ -1,5 +1,10 @@
 package golang
 
+/** 题解思路：
+
+
+ */
+
 func TwoSum(nums []int, target int) []int {
 	for k1, v1 := range nums {
 		for k2, v2 := range nums {
