@@ -7,3 +7,8 @@
     * [栈解法](42_stack.go)
     * 左右指针解法 // TODO
     * 动态规划解法 // TODO 
+    
+224. Basic Calculator (简单计算器)
+    * [不太好的解法](224_bad.go)
+    * [巧妙的利用栈的解法](224_good.go)
+   
