@@ -14,7 +14,6 @@ package stack
     * 类似于解题思路中的那样
 
 * 祝你顺利 Pass
-
 */
 
 func removeDuplicateLetters(s string) string {
