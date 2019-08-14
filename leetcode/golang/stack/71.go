@@ -1,5 +1,17 @@
 package stack
 
+/*
+   利用 栈 处理此问题
+
+   解题思想: 这题比较简单, 用栈的思路能很快求解,
+
+   时间复杂度: O(n)
+   空间复杂度: O(1)
+
+   过程:
+       文件名入栈, .. 出栈
+*/
+
 import "strings"
 
 func simplifyPath(path string) string {

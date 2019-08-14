@@ -10,6 +10,12 @@
         * [栈解法](stack/42_stack.go)
         * 左右指针解法 // TODO
         * 动态规划解法 // TODO 
+
+* 71 Simplify Path (简化路径)
+    * Tag
+        * Stack
+    * 解法
+        * [栈解法](stack/71.go)
     
 * 224 Basic Calculator (简单计算器)
     * Tag
