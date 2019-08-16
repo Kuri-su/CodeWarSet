@@ -1,4 +1,4 @@
-package stack
+package heap
 
 /*
    利用 分治的思想 处理此问题, 具体表现为 快排 + 类似二分查找
