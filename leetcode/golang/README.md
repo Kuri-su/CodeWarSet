@@ -22,8 +22,8 @@
         * 分治(快排+二分查找)
         * 堆
     * 解法
-        * [分治](heap/215_divide.go) (待优化)
-        * [堆](heap/215_heap.go) (待完成,当前对堆的实现有些遗忘.....)
+        * [分治](heap/215_divide.go) (空间复杂度待优化)
+        * [堆](heap/215_heap.go) 
     
 * 224 Basic Calculator (简单计算器)
     * Tag
@@ -38,6 +38,15 @@
     * 解法
         * [利用 栈 和 计数器 ,使用 贪心思想](stack/316.go)
         * 贪心法(每次拼凑都检查修改前和修改后的)
+
+* 378 Kth Smallest Element in a Sorted Matrix (有序矩阵中第K小的元素)
+    * Tag
+        * Heap(堆)
+        * 二分查找
+    * 解法
+        * [堆](heap/378_heap.go)
+        * [二分查找](heap/378_binary_search.go)(待完成)
+        * [O(n) X+Y](heap/378_cube.go)(待完成)
         
 * 456 132 Pattern (132模式)
     * Tag
